@@ -1,12 +1,12 @@
-
 import { useState, useCallback } from "react";
 import A from "../components/A";
 import B from "../components/B";
 import C from "../components/C";
+import "./main.css";
 
 function Main() {
   console.log("Main이 렌더링 됐다.");
-  
+
   const [dataB, setDataB] = useState(0);
   const [condC, setCondC] = useState(false);
 
@@ -32,11 +32,19 @@ function Main() {
   }, [dataB, condC]);
 
   return (
-    <div>
-      <h1>Main Page</h1>
-      <A onDataChange={handleDataChangeInA} />
-      <B data={dataB} />
-      <C cond={condC} />
+    <div className="mainContainer">
+      <div className="componentContainer">
+        <h1>Main Page</h1>
+        <div className="component">
+          <A onDataChange={handleDataChangeInA} />
+        </div>
+        <div className="component">
+          <B data={dataB} />
+        </div>
+        <div className="component">
+          <C cond={condC} />
+        </div>
+      </div>
     </div>
   );
 }

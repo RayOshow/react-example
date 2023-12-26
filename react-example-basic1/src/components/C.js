@@ -13,7 +13,6 @@ function C({cond})  {
   return (
     <div>
       <h2>Component C</h2>
-      <p>This is Component C.</p>
       <p>Random Number: {randomNum}</p>
     </div>
   );
