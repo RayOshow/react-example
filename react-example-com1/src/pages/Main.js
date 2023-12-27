@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import ProductList from "../components/ProductList";
 import Search from "../components/Search";
-import "./main.css";
+import "./Main.css";
 
 function Main() {
   console.log("Main이 렌더링 됐다.");
 
+  // productList라는 상태를 생성하고, 초기값으로 빈 배열([])을 할당합니다.
   const [productList, setProductList] = useState([]);
   const [searchKeyword, setSearchKeyword] = useState(null);
 
@@ -20,7 +21,7 @@ function Main() {
       .then((response) => response.json())
       .then((data) => setProductList(data))
       .catch((error) => console.error("Error:", error));
-  }, [searchKeyword]);
+  }, [searchKeyword]); // searchKeyword 가 변경될 때마다 API가 재호출 됩니다. 
 
   function searchMethod(keyword) {
     setSearchKeyword(keyword);

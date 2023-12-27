@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./pages/main"; // main.js를 import
+import Main from "./pages/Main"; // main.js를 import
 import "./App.css";
 
 function App() {
