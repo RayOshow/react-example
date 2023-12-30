@@ -11,7 +11,6 @@ function Filter({ filter, onFilterChange }) {
   };
 
   const handleCategoryChange = (index) => {
-
     setSelectedCategory(index);
     onFilterChange({ brand: selectedBrand, category: index });
   };

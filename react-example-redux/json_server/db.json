@@ -1,0 +1,78 @@
+{
+  "filter": {
+    "brand": ["ALL","A","B","C"],
+    "category": ["ALL","X","Y"]    
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Product1",
+      "imageUrl": "https://media.istockphoto.com/id/1469669858/ko/%EC%82%AC%EC%A7%84/%EB%B6%84%ED%99%8D%EC%83%89-%EC%97%B0%EB%8B%A8%EC%9D%80-%EB%B0%94%EC%9C%84-%EC%9C%84%EC%97%90-%EC%95%89%EC%95%84-%EC%9E%88%EC%9C%BC%EB%A9%B0-%EC%95%BC%EC%9E%90%EC%88%98-%EC%9E%8E-%EB%B9%88-%EC%9E%A5%EB%A9%B4%EA%B3%BC-%ED%95%A8%EA%BB%98-%EA%B7%B8-%EB%92%A4%EC%97%90-%ED%88%AC%EB%AA%85%ED%95%9C-%EC%9C%A0%EB%A6%AC%EA%B0%80-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%EA%B8%B0%ED%95%98%ED%95%99%EC%A0%81-%EB%9F%AD%EC%85%94%EB%A6%AC-%EB%B0%9B%EC%B9%A8%EB%8C%80-%ED%99%94%EC%9E%A5%ED%92%88-%ED%8C%A8%EC%85%98-%ED%94%84%EB%A0%88%EC%A0%A0%ED%85%8C%EC%9D%B4%EC%85%98-%EC%B6%94%EC%83%81%EC%A0%81%EC%9D%B8-%EB%B0%B0%EA%B2%BD-3d.webp?b=1&s=170667a&w=0&k=20&c=xsxjetbt46o0sV-7fTBS6EqOht0acxZR5zIhNstJbHk=",
+      "brand": "BrandA",
+      "category": "X"
+    },
+    {
+      "id": 2,
+      "name": "Product2",
+      "imageUrl": "https://media.istockphoto.com/id/1434215369/ko/%EC%82%AC%EC%A7%84/%EB%AA%A8%ED%98%95-%ED%94%84%EB%A6%AC%EC%A0%A0-%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84%EC%9C%84%ED%95%9C-%EC%A0%9C%ED%92%88-%EC%97%B0%EB%8B%A8-%EB%8B%A8%EA%B3%84-%EB%82%98%EB%AC%B4-%ED%85%8D%EC%8A%A4%ED%8A%B8-%ED%9A%8C%EC%83%89-%EC%83%89%EC%83%81-%EB%B0%B0%EA%B2%BD.webp?b=1&s=170667a&w=0&k=20&c=gMkOVu7cPdTPn1EIU-SkFTChrXD1g6zkJm-gCnmSgHs=",
+      "brand": "BrandC",
+      "category": "Y"
+    },
+    {
+      "id": 3,
+      "name": "Product3",
+      "imageUrl": "https://images.unsplash.com/photo-1576083983581-091fe917ff9d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandA",
+      "category": "Y"
+    },
+    {
+      "id": 4,
+      "name": "Product4",
+      "imageUrl": "https://images.unsplash.com/photo-1544654186-3abb5ede4adc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandB",
+      "category": "X"
+    },
+    {
+      "id": 5,
+      "name": "Product5",
+      "imageUrl": "https://images.unsplash.com/photo-1472141521881-95d0e87e2e39?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8JUVDJTgzJTgxJUVEJTkyJTg4fGVufDB8fDB8fHww",
+      "brand": "BrandB",
+      "category": "Y"
+    },
+    {
+      "id": 6,
+      "name": "Product6",
+      "imageUrl": "https://images.unsplash.com/photo-1602532360508-595f449c7c55?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandA",
+      "category": "X"
+    },
+    {
+      "id": 7,
+      "name": "Product7",
+      "imageUrl": "https://images.unsplash.com/photo-1596101139317-0e85c3f06450?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandC",
+      "category": "Y"
+    },
+    {
+      "id": 8,
+      "name": "Product8",
+      "imageUrl": "https://images.unsplash.com/photo-1576618148261-810425853baf?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandC",
+      "category": "X"
+    },
+    {
+      "id": 9,
+      "name": "Product9",
+      "imageUrl": "https://images.unsplash.com/photo-1603793435077-810d340d328f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandC",
+      "category": "Y"
+    },
+    {
+      "id": 10,
+      "name": "Product10",
+      "imageUrl": "https://images.unsplash.com/photo-1603569239784-0a4b159fa3dc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fCVFQyU4MyU4MSVFRCU5MiU4OHxlbnwwfHwwfHx8MA%3D%3D",
+      "brand": "BrandA",
+      "category": "X"
+    }
+  ]
+}

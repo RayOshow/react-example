@@ -1,0 +1,10 @@
+.star {
+  cursor: pointer;
+  color: gray;
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.star.favorite {
+  color: gold;
+}
