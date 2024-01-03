@@ -1,0 +1,28 @@
+/* CSS에서 사용하는 계산 함수 calc()를 활용하여, 요소의 너비를 계산하는 데 사용됩니다. 이 함수는 여러 단위의 값을 조합하여 계산할 수 있어서 매우 유용합니다.
+33%: 이 부분은 부모 요소의 너비에 대한 상대적 비율을 나타냅니다. 
+- 10px: 이 부분은 33.333%에서 10픽셀을 뺀 값을 계산합니다. 이것은 주로 요소 사이에 고정된 간격을 주기 위해 사용됩니다. 예를 들어, 요소 사이에 마진이나 패딩이 적용되었다면, 이러한 공간을 고려하여 실제 요소의 너비를 조정해야 할 필요가 있습니다.
+calc(33.333% - 10px) 전체: 따라서 이 전체 표현은 부모 컨테이너의 33.333% 너비에서 10픽셀을 뺀 값으로 요소의 너비를 설정합니다. 이는 각 요소가 부모의 1/3 너비를 차지하면서도, 주변 요소나 컨테이너의 경계와 일정한 간격을 유지하도록 해줍니다. */
+
+.product {
+  flex-basis: calc(
+    33.333% - 10px
+  ); /* 한 줄에 3개의 아이템을 표시.  box-sizing: border-box;인 경우에만 유효*/
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: 100px;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+}
+
