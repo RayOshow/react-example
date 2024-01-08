@@ -1,0 +1,37 @@
+/* 필터 컨테이너 스타일 */
+.filter-container {
+  border: 1px solid red;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* 필터 간격 */
+  padding: 10px;
+}
+
+/* 개별 필터 항목 스타일 */
+.filter-item {
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* 입력 항목 간격 */
+  /* padding: 10px */
+}
+
+.filter-item h3 {
+  color: blue;
+}
+
+/* 라벨 스타일 */
+.filter-item label {
+  display: flex;
+ 
+  margin-left: 20px;
+  gap: 5px; /* 라벨 내부 요소 간격 */
+}
+
+/* 라디오 버튼 스타일 */
+.filter-item input[type="radio"] {
+  flex-shrink: 0; /* 라디오 버튼 크기 고정 */
+}
