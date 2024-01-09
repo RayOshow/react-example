@@ -1,0 +1,20 @@
+.mainContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+  gap : 10px;
+
+}
+
+.notFound{
+  width: 700px;
+  height: 100vh;
+  border: 1px solid green;
+  text-align: center;
+  padding: 100px;
+  color: red;
+  font-size: 32px;
+}
